@@ -30,6 +30,7 @@
 		7650130226693673000B3BC8 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7650130126693673000B3BC8 /* Artist.swift */; };
 		7650130526693682000B3BC8 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7650130426693682000B3BC8 /* UserProfile.swift */; };
 		7650130926697254000B3BC8 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7650130826697254000B3BC8 /* Extension.swift */; };
+		7650130C266A67EB000B3BC8 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7650130B266A67EB000B3BC8 /* AuthResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		7650130126693673000B3BC8 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		7650130426693682000B3BC8 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		7650130826697254000B3BC8 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		7650130B266A67EB000B3BC8 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				765012FE26693664000B3BC8 /* AudioTrack.swift */,
 				7650130126693673000B3BC8 /* Artist.swift */,
 				7650130426693682000B3BC8 /* UserProfile.swift */,
+				7650130B266A67EB000B3BC8 /* AuthResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				765012D126693268000B3BC8 /* TabBarViewController.swift in Sources */,
 				765012B826692D7E000B3BC8 /* HomeViewController.swift in Sources */,
 				765012F92669362C000B3BC8 /* HapticsManager.swift in Sources */,
+				7650130C266A67EB000B3BC8 /* AuthResponse.swift in Sources */,
 				765012FF26693664000B3BC8 /* AudioTrack.swift in Sources */,
 				7650130926697254000B3BC8 /* Extension.swift in Sources */,
 				765012DE2669351F000B3BC8 /* AuthViewController.swift in Sources */,
