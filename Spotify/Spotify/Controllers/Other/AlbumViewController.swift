@@ -1,18 +1,18 @@
 //
-//  PlaylistViewController.swift
+//  AlbumViewController.swift
 //  Spotify
 //
-//  Created by  Ivan Kamenev on 03.06.2021.
+//  Created by  Ivan Kamenev on 18.06.2021.
 //
 
 import UIKit
 
-class PlaylistViewController: UIViewController {
-
-    private let playlist: Playlist
+class AlbumViewController: UIViewController {
     
-    init(playlist: Playlist) {
-        self.playlist = playlist
+    private let album: Album
+    
+    init(album: Album) {
+        self.album = album
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -22,8 +22,10 @@ class PlaylistViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = playlist.name
+        title = album.name
         view.backgroundColor = .systemBackground
     }
+    
+
 
 }
