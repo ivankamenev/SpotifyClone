@@ -7,7 +7,7 @@
 
 import Foundation
 
-class APICaller {
+final class APICaller {
     
     static let shared = APICaller()
     
@@ -21,6 +21,22 @@ class APICaller {
         case failedToGetData
     }
     
+    //MARK: - Album
+    
+    public func getAlbumDetails(for album: Album, completion: @escaping(Result<String, Error>) -> Void) {
+        createRequest(
+            with: URL(string: Constants.baseAPIURL + ""),
+            type: .GET) { request in
+            let task = URLSession.shared.dataTask(with: request) { data, _, error in
+                guard let data = data, error
+            }
+        }
+    }
+    
+    //MARK: - Playlists
+
+    //MARK: - Profile
+
     public func getCurrentUserProfile(completion: @escaping(Result<UserProfile, Error>) -> Void) {
         createRequest(
             with: URL(string: Constants.baseAPIURL + "/me"),
