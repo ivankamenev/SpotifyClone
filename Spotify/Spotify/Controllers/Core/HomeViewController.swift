@@ -179,7 +179,8 @@ class HomeViewController: UIViewController {
             return RecommendedTrackCellViewModel(
                 name: $0.name,
                 artistName: $0.artists.first?.name ?? "-",
-                artwork: URL(string: $0.album.images.first?.url ?? ""))
+                artwork: URL(string: $0.album?.images.first?.url ?? "")
+            )
         })))
         collectionView.reloadData()
         
