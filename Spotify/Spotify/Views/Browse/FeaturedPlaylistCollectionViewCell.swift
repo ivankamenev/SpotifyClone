@@ -43,8 +43,6 @@ class FeaturedPlaylistCollectionViewCell: UICollectionViewCell {
         contentView.addSubview(creatorNameLabel)
         contentView.clipsToBounds = true
 
-
-
     }
     
     required init?(coder: NSCoder) {
